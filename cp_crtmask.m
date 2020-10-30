@@ -87,7 +87,7 @@ Vo = spm_write_vol(V,Msk_full);
 fn_out = Vo.fname;
 
 % Row ROI
-ROI_row = [1:M_sz(1)]' * ones(1,M_sz(2));
+ROI_row = (1:M_sz(1))' * ones(1,M_sz(2));
 if flag_sq && opts.remD
     ROI_row = ROI_row .* (ones(M_sz(1:2)) - eye(M_sz(1:2)));
 end

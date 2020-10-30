@@ -1,8 +1,8 @@
 # Matrix-to-NIfTI conversion
 The aim of the functions available here is:
 
-- turning an arbitrary matrix into a NIfTI image
-- provide some "mask" for these converted images
+- [`cp_mat2nii.m`](cp_mat2nii.m) turning an arbitrary matrix into a NIfTI image
+- [`cp_crtmask.m`](cp_crtmask.m) provide some "mask" for these converted images
 
 This conversion from a matrix into a [NIfTI image](https://nifti.nimh.nih.gov/) can be useful when one wants to visualize or analyse two-dimensional (brain) connectivity matrices with neuroimaging tools such as [SPM](https://www.fil.ion.ucl.ac.uk/spm/) or [PRoNTo](http://www.mlnl.cs.ucl.ac.uk/pronto/). The mask can then be used to automatically select all or part of the created images.
 

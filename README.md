@@ -8,3 +8,6 @@ This conversion from a matrix into a [NIfTI image](https://nifti.nimh.nih.gov/) 
 
 
 
+### Dependencies
+
+The functions rely on some SPM functions thus SPM's main folder must be on Matlab's path.
